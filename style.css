@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(33, 22%, 82%);
+  position: absolute;
+}
+
+body.viewport-lg {
+    
+    position: absolute; }
+@media only screen and (min-width: 375px){
+  .mobile-only{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1440px){
+  .desktop-only{
+    display: none !important;
+  }
+}
+.white-box{ width: 700px; height:550px;
+          background-color: white; border-radius: 10px;
+          margin: auto; margin-top: 100px;}
+img {width: 350px; height: 550px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+#a {text-transform: uppercase;
+   font-family: 'Montserrat';
+   color: hsl(228, 12%, 48%);
+   font-size: 14px;}
+#b {font-family: fraunces;
+   text-transform: capitalize; font-size:45px;
+   color: hsl(212, 21%, 14%);}
+#c {color: hsl(228, 12%, 48%); 
+   font-size: 14px;
+   font-family: 'Montserrat';}
+#d {color: hsl(158, 36%, 37%);
+   font-family: fraunces;font-size: 45px;}
+#e {color: hsl(228, 12%, 48%);
+   font-family: montsserrat;
+   font-size: 14px; margin-left: 30px;}
+button {width: 300px; height: 50px;
+       color: white; font-size: 14px;
+       background-color: hsl(158, 36%,37%); border-radius: 7px;
+       padding: 10px 10px 10px 10px; border-style: none;
+       font-weight: 18px}
+button:hover {background-color:hsl(159,61%,12%);}
+#f {padding: 15px 15px 15px 25px;}
+#g {display: flex; justify-content: baseline; align-items: flex-start;}
+#h {display: flex; justify-content: baseline; align-items: center;
+   margin-top: -15px;}
